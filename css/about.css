@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+
+*{margin:0; padding:0;
+    list-style:none;
+    box-sizing:border-box;}
+
+body{background-color: #ffffff;
+    color:#000000;
+    font-family: 'NanumSquareNeo';}
+
+a{text-decoration: none;
+    color:inherit;}
+
+.wrap{width:100%;
+    margin:0 auto;}
+
+.myself_wrap{width:90%;
+            margin:0 auto;
+            padding:50px 0;
+            border-bottom: 1px solid #d5d5d5;}
+
+.myself_wrap > ul{width:100%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;}
+
+.myself_wrap ul li{width:45%;}
+.myself_wrap ul li h4{width:100%;
+                    margin:0 auto;
+                    padding:20px 0;
+                    font-size: 16px;
+                    color: #2DB88E;}
+
+.myself_wrap ul li h3{width:100%;
+                margin:0 auto;
+                padding:20px 0;
+                font-size: 20px;
+                color: #000000;
+                text-align: center;}
+
+
+.introduce span{color: #2DB88E;
+                font-weight: bold;}
+
+.introduce div{width:200px;
+                margin: 35px auto;
+                text-align: center;}
+
+.introduce div p{margin:30px 0;}
+.introduce div img{width:100%;}
+
+.introduce .txt{width:100%;
+            margin-top:60px;
+            line-height: 20px;}
+
+.introduce ul{display: flex;
+            justify-content: space-between;
+            margin-top:30px;}
+
+
+.info img{width:25px;
+        height:25px;
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: middle;}
+
+.info ul li{line-height: 35px;
+            font-size: 14px;}
+
+.career p, 
+.activities p, 
+.certificate p{font-size: 14px;
+                line-height: 20px;}
+
+.certificate ul{display: flex;
+                justify-content: space-between;}
+
+.certificate img{width: 42px;
+                height: 42px;
+                margin-right:5px;}
+
+
+
+/*second wrap*/
+
+.second_myself_wrap{width:90%;
+                    margin:0 auto;
+                    padding:50px 0}
+
+.second_myself_wrap h3{width:100%;
+                        margin:0 auto;
+                        padding:20px 0;
+                        font-size: 20px;
+                        text-align: center;}
+.second_myself_wrap span{color: #2DB88E;
+                        font-size: 20px;}
+
+.second_me{width:100%;
+            margin: 0 auto;
+            font-size: 14px;
+            line-height: 25px;
+            display: flex;
+            justify-content: space-between;}
+
+.second_me h4{padding:30px 0;
+                text-align: center;
+                font-size: 16px;
+                color: #2DB88E;}
+                
+.second_me > div{width:calc(90% / 3);
+                margin:0 auto;}
+
+.second_me > div > img{width:100px;
+                        height:100px;
+                        display: block;
+                        margin:30px auto;}
+
+.second_me > div > ul{display: flex;
+                        justify-content: space-around;
+                        font-weight: bold;
+                        margin: 20px 0;}
