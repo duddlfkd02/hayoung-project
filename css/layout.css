@@ -1,17 +1,13 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-@font-face{
-    font-family:'NanumGothic';
-    src:url('fonts/NanumGothic.eot');
-    src:url('fonts/NanumGothic.eot?#iefix') format(‘embedded-opentype’),
-        url('fonts/NanumGothic.woff') format(‘woff’),
-        url('fonts/NanumGothic.ttf') format('truetype'),
-        url('fonts/NanumGothic.svg') format('svg');
-}
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+
 
 *{margin:0; padding:0;
     list-style:none;
     box-sizing:border-box;}
+
+html,body{height:100%;}
 
 body{background-color: #ffffff;
     color:#000000;}
@@ -87,7 +83,8 @@ a{text-decoration: none;
         animation-duration: 3s;
         animation-timing-function: linear;
         animation-fill-mode: both;
-        animation-name: slidein;}
+        animation-name: slidein;
+        animation-delay: 0.7s;}
 
 
 @keyframes slidein{
