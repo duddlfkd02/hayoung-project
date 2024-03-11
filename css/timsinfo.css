@@ -13,7 +13,7 @@ body{background-color: #ffffff;
 a{text-decoration: none;
     color:inherit;}
 
-.wrap{width:1440px;
+.wrap{width:100%;
     margin:0 auto;}
 
 .bgbar{width:100%;
@@ -23,14 +23,14 @@ a{text-decoration: none;
         position:absolute;
         bottom:0;}
 
-        .content_wrap{width:90%;
-            margin: 200px auto;
-            display: flex;
-            justify-content: space-between;}
+.content_wrap{width:90%;
+            margin: 0 auto;
+            margin-top:230px;
+            display: flex;}
 
 .mokup_box{width:45%;
             height:auto;
-            margin: 0 auto;
+            margin-left:180px;
             position:relative;}    
 
 .mokup_box img{position:absolute;}

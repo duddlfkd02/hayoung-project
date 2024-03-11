@@ -111,7 +111,7 @@ a{text-decoration: none;
                 color: #2DB88E;}
                 
 .second_me > div{width:calc(90% / 3);
-                margin:0 auto;}
+                    margin:0 auto;}
 
 .second_me > div > img{width:100px;
                         height:100px;
@@ -128,20 +128,20 @@ a{text-decoration: none;
     height:100vh;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/contact_bg.png);
+    background-image: url("../images/contact_bg.png");
     position: relative;
-visibility: hidden;}
+    visibility: hidden;}
 
 .imgbox{width:350px;}
 
 .imgbox img{width:100%;
             margin-top:50px;
-            margin-left:100px;}
+            margin-left:120px;}
 
 
 .text{position:absolute;
-    right: 150px;
-    bottom:220px;
+    right: 180px;
+    bottom:240px;
     text-align: end;}
 
 .text h2{font-size: 80px;
