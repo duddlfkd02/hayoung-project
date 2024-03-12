@@ -25,7 +25,7 @@ a{text-decoration: none;
 
 .content_wrap{width:90%;
             margin:0 auto;
-            margin-top:230px;
+            margin-top:200px;
             display: flex;}
 
 .mokup_box{width:45%;
@@ -49,8 +49,9 @@ a{text-decoration: none;
         margin-top:30px;}
 
 .text_box p{width:500px;
-            padding:10px 0;
+            padding:16px 0;
             line-height: 20px;
+            text-align: justify;
             font-size: 14px;}
 
 .text_box ul {font-size: 12px;
@@ -78,17 +79,16 @@ a{text-decoration: none;
     color:#ff4848;}
 
 .arrow{position: relative;
-width:10px;
-height:10px;}
+        width:10px;
+        height:10px;}
 
 
-.arrow::after {
-position: absolute;
-left: 5px; 
-top: 2px; 
-content: '';
-width: 10px; /* 사이즈 */
-height: 10px; /* 사이즈 */
-border-top: 1px solid #ff4848; /* 선 두께 */
-border-right: 1px solid #ff4848; /* 선 두께 */
-transform: rotate(45deg); /* 각도 */}
+.arrow::after {position: absolute;
+                left: 5px; 
+                top: 2px; 
+                content: '';
+                width: 10px; /* 사이즈 */
+                height: 10px; /* 사이즈 */
+                border-top: 1px solid #ff4848; /* 선 두께 */
+                border-right: 1px solid #ff4848; /* 선 두께 */
+                transform: rotate(45deg); /* 각도 */}

@@ -25,7 +25,7 @@ a{text-decoration: none;
 
 .content_wrap{width:90%;
             margin: 0 auto;
-            margin-top:230px;
+            margin-top:200px;
             display: flex;}
 
 .mokup_box{width:45%;
@@ -49,8 +49,9 @@ a{text-decoration: none;
         margin-top:30px;}
 
 .text_box p{width:500px;
-            padding:10px 0;
+            padding:16px 0;
             line-height: 20px;
+            text-align: justify;
             font-size: 14px;}
 
 .text_box ul {font-size: 12px;
