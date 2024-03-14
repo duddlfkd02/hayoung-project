@@ -31,8 +31,7 @@ a{text-decoration: none;
         position: relative;}
 
 .title h1{width:50%;
-        margin:0 auto;
-        padding-top:50px;
+        margin:20px auto;
         text-align: center;
         font-size: 100px;
         font-family: "Fredoka", sans-serif;}
@@ -45,26 +44,29 @@ a{text-decoration: none;
         font-weight: 700;
         font-family: "Fredoka", sans-serif;}
 
-
+.title > h1 > span{font-size: 50px;
+            padding-left:20px;}
 
 .title img:nth-child(3){width:38px;
                         height:38px;
                         position: absolute;
-                        left: 900px;
+                        top:170px;
+                        left: 62%;
                         transform: rotate(10deg);}
 
 .start_foot{position: absolute;
             width: 70px;
             height: 70px;
-            top: 260px;
-            left: 60%;}
+            top: 210px;
+            left: 58%;}
 
-.title > a > span{top: 300px;
-                    position: absolute;
-                    left: 60.8%;
-                    z-index: 1;
-                    font-weight: 500;
-                    font-family: "Fredoka", sans-serif;}
+.start_btn > a > span{top: 248px;
+            position: absolute;
+            left: 59%;
+            z-index: 1;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: "Fredoka", sans-serif;}
 
 .grass_bg{width:100%;
             height:200px;
