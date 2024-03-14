@@ -27,6 +27,7 @@ a{text-decoration: none;
 
 
 .title{width:100%;
+        top:50%;
         margin:20px auto;
         position: relative;}
 
