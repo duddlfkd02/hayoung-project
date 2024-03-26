@@ -155,7 +155,8 @@ a{text-decoration: none;
 .qr > p{font-size: 12px;
         font-weight: bold;
         padding-top:0;}
-.qr img{width:100%;}
+.qr img{width:100%;
+        border-radius: 10px;}
 
 
 
