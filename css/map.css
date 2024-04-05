@@ -63,6 +63,14 @@ a{text-decoration: none;
 
 .car div img{width:100%;}
 
+
+.fountain{text-align: center;
+            position:absolute;
+            width:250px;
+            bottom:20px;
+            left:300px;}
+.fountain div img{width:100%;}
+
 .sell{position:absolute;
     width:220px;
     top:340px;
@@ -137,11 +145,6 @@ a{text-decoration: none;
 .post img{width:100%;}
 
 
-.fountain{position:absolute;
-            width:250px;
-            bottom:20px;
-            left:300px;}
-.fountain img{width:100%;}
 
 
 .signboard{position:absolute;

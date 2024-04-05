@@ -95,6 +95,7 @@ a{text-decoration: none;
                         padding:20px 0;
                         font-size: 20px;
                         text-align: center;}
+
 .second_myself_wrap span{color: #2DB88E;
                         font-size: 20px;}
 
@@ -123,9 +124,75 @@ a{text-decoration: none;
                         font-weight: bold;
                         margin: 20px 0;}
 
+/*design practicep*/
+
+
+.designP{width:95%;
+        margin:100px auto;
+        visibility: hidden;}
+
+.designP h3{width:100%;
+            margin-top:50px;
+            padding:10px 0;
+            font-size: 20px;
+            text-align: center;}
+
+.designP .title span{width:100%;
+                    margin-bottom: 20px;
+                    display: inline-block;
+                    line-height: 20px;
+                    font-size: 12px;
+                    font-weight: 500;
+                    text-align: center;
+                    color:#2DB88E;}
+
+.swiper-wrapper{width:95%;
+                display: flex;
+                justify-content: space-between;}
+
+.swiper-slide{width:300px;
+                height:100%;
+                margin:20px auto;
+                display: flex;
+                justify-content: space-between;
+                justify-content: center;
+                border-radius: 20px;}
+
+.swiper-slide img {width: 100%;
+                    height: 400px;
+                    margin:auto;
+                    object-fit: cover;
+                    border-radius: 5px;}
+
+.swiper-slide img:hover{transform: scale(105%);
+                    transition: 0.3s;}
+
+.swiper-slide h4{margin:20px auto;
+                text-align: center;
+                font-size: 14px;
+                color:#7d7d7d;}
+
+
+.swiper-slide p{margin:20px auto;
+                text-align: center;
+                line-height: 50px;
+                width:150px;
+                height:50px;
+                border-radius: 30px;
+                color:#ffffff;
+                background-color: #2DB88E;
+                border:2px solid #2DB88E;}
+
+.swiper-slide p:hover{background-color: #ffffff;
+                        color:#000000;}
+
+
+
+
 
 .bg{width:100%;
     height:100vh;
+    margin-top:30px;
     background-position: center;
     background-size: cover;
     background-image: url("../images/contact_bg.png");
